@@ -18,7 +18,7 @@ export default function MainNav() {
             </span>
             <span className=" ml-2 uppercase">All categories</span>
          </div>
-            <div className=" absolute w-full left-0 top-full bg-white   shadow-md  divide-y divide-gray divide-dashed hidden group-hover:block opacity-0 group-hover:opacity-100 transition duration-300 invisible group-hover:visible">
+            <div className=" absolute w-full left-0 top-full bg-white   shadow-md  divide-y divide-gray divide-dashed hidden group-hover:block opacity-0 group-hover:opacity-100 hover:transition hover:duration-500 invisible group-hover:visible">
               <a href="" className=" hover:bg-lightGray flex items-center px-6 py-3 transition">
              <BsShopWindow></BsShopWindow>
                 <span className=" ml-6 text-red text-sm">Sofa</span>
